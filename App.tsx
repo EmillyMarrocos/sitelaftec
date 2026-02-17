@@ -167,11 +167,10 @@ const Navbar: React.FC = () => {
 };
 
 const Hero: React.FC = () => (
-  <section id="home" className="relative min-h-screen flex items-center pt-20 overflow-hidden bg-black">
+  <section id="home" className="relative min-h-screen flex items-center pt-20 pb-32 overflow-hidden bg-black">
     <div className="absolute inset-0 bg-[radial-gradient(circle_at_50%_10%,rgba(250,204,21,0.15),transparent_60%)]"></div>
     <div className="container mx-auto px-6 relative z-10">
       <div className="max-w-4xl">
-        <Badge>Conexão Calouros 2026</Badge>
         <h1 className="text-5xl sm:text-7xl md:text-9xl font-black text-white leading-[0.85] tracking-tighter mb-8 italic uppercase">
           Conectando <br />
           <span className="text-yellow-400">Mulheres</span> <br />
@@ -195,7 +194,7 @@ const Hero: React.FC = () => (
 );
 
 const About: React.FC = () => (
-  <section id="sobre" className="py-24 bg-zinc-950">
+  <section id="sobre" className="py-32 bg-zinc-950">
     <div className="container mx-auto px-6">
       <div className="flex flex-col md:flex-row gap-16 items-center">
         <div className="md:w-1/2">
